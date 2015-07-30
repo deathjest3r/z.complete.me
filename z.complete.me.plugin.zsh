@@ -33,7 +33,7 @@ function _term_list(){
   
   compstate[pattern_match]='*'
   _wanted directories expl 'current directory from other shell' \
-      compadd -M "r:|/=* r:|=*" -f -a dirs
+      compadd -Q -M "r:|/=* r:|=*" -f -a dirs
 }
 
 zle -C term_list menu-complete _generic
