@@ -11,6 +11,5 @@ to show you the current working directory of the other open zsh sessions.
 
 ## How it works:
 
-* It uses 'pidof zsh' to determine all zsh PIDs
-* It reads procfs to get the current working directory of this session
+* Depending on the system it uses a combination of pidof, lsof, pgrep and procfs to determine all zsh PIDs and its working directories
 * Everything is fed into zsh's completion magic
