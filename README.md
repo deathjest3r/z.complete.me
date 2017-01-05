@@ -13,3 +13,19 @@ to show you the current working directory of the other open zsh sessions.
 
 * Depending on the system it uses a combination of pidof, lsof, pgrep and procfs to determine all zsh PIDs and its working directories
 * Everything is fed into zsh's completion magic
+
+## Installation:
+
+* Install [oh-my-zsh][https://github.com/robbyrussell/oh-my-zsh]
+* Then
+```
+cd ~/.oh-my-zsh/plugins
+git clone https://github.com/deathjest3r/z.complete.me.git
+vim ~/.zshrc
+```
+
+Add z.complete.me to plugins entry
+```
+plugins=(... z.complete.me)
+```
+* Done
