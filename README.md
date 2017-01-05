@@ -17,14 +17,13 @@ to show you the current working directory of the other open zsh sessions.
 ## Installation:
 
 * Install [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh)
-* Then
+* Then:
 ```
 cd ~/.oh-my-zsh/plugins
 git clone https://github.com/deathjest3r/z.complete.me.git
-vim ~/.zshrc
 ```
 
-Add z.complete.me to plugins entry to ```~./.zshrc```
+* Add z.complete.me to plugins entry to ```~./.zshrc```
 ```
 plugins=(... z.complete.me)
 ```
